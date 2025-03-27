@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea46f64d-b6cb-47f8-8375-94a2ea3edff1">
+  <producedTypes>
+    <selectionType typeId="30e73f6d-daf1-4e66-b78b-a580ec54bc67" valueTypeId="345ff0ac-a7ad-4b90-b202-d6fa9483b742"/>
+    <listType typeId="c2a05b7f-f501-410b-9455-b1f1d26e137f" valueTypeId="35cc23ea-94fc-4c8f-bff5-2271ce4c5fee"/>
+    <managerType typeId="45f3034b-9a57-4cdc-96f3-61c206eb6095" valueTypeId="e6cfa816-67ce-4426-8089-5414fb3aee76"/>
+    <recordSetType typeId="8795967c-641c-4f1e-b815-9e63f99603e2" valueTypeId="66b87468-b2ad-4639-b660-dd619380882c"/>
+    <recordKeyType typeId="28ff7158-65d9-4517-beb2-dd5c8e8d5a4b" valueTypeId="05815946-5845-4aac-b9dc-a848dc22e9f5"/>
+    <recordType typeId="9d321501-0c88-4a61-97d2-3466601f7ec2" valueTypeId="1d8e36f5-185f-4e1f-9662-a07a8befcfe9"/>
+    <recordManagerType typeId="ce646c60-7654-4fc1-9e1f-14e0b12eb876" valueTypeId="8218f267-092b-4bec-a0f5-548beb23c74e"/>
+  </producedTypes>
+  <name>РБ_НастройкиРабочегоСтола</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки рабочего стола</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cd10ff69-987a-4f5c-a451-70323c96d21b">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="51124c28-19cd-473f-9ad2-221469ae2112">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

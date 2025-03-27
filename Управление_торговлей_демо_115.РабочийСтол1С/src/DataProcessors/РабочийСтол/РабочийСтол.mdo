@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ca99629-7b67-48a3-bb7e-5d1677abecf6">
+  <producedTypes>
+    <objectType typeId="bcd90e99-45ea-41f6-a15c-1efb5de723ce" valueTypeId="94da5b10-135d-41ec-a8d9-18a33a202e1c"/>
+    <managerType typeId="6303f2e1-1b3f-4260-8984-44553306335d" valueTypeId="043744dc-6cb6-45c0-b83c-42c921069ebb"/>
+  </producedTypes>
+  <name>РабочийСтол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочий стол</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РабочийСтол.Form.ФормаРС</defaultForm>
+  <forms uuid="e1d1052c-9f8a-4a1f-9965-7b5cd3b0ef19">
+    <name>ФормаРС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма РС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="21293f3a-2b37-467d-86f1-254216566424">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="148acd13-66aa-4470-894d-3746d9a1678f">
+    <name>ФормаВыбораОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
