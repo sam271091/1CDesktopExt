@@ -38,4 +38,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="5231db89-c784-431a-8949-b151386d5c67">
+    <name>ФормаСохраненияНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
