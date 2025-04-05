@@ -33,6 +33,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.РБ_ОсновнаяРоль</defaultRoles>
+  <version>1.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.21</compatibilityMode>
@@ -44,9 +45,11 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.РБ_АдминРабочегоСтола1С</roles>
   <roles>Role.РБ_ОсновнаяРоль</roles>
-  <roles>Role.РБ_ЧтениеРабочийСтол1С</roles>
+  <roles>Role.РБ_ПользовательРабочегоСтола1С</roles>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.РБ_ВариантыНастроекРабочегоСтола</catalogs>
   <dataProcessors>DataProcessor.РабочийСтол</dataProcessors>
   <informationRegisters>InformationRegister.РБ_НастройкиРабочегоСтола</informationRegisters>
 </mdclass:Configuration>

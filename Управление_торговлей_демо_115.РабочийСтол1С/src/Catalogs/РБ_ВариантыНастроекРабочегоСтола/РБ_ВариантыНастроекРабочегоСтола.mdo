@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e406ab1-afa9-4ffa-b5ca-90d0abe2f5e3">
+  <producedTypes>
+    <objectType typeId="3d0144e5-0ec4-4280-9b73-d1ff611b5faa" valueTypeId="5924e5d3-8037-4492-8c76-0963885c0cbd"/>
+    <refType typeId="75a3c65d-2f7d-4ad6-a9be-5e14f6e2152c" valueTypeId="4eb1e3b4-61bb-46d4-8f5d-a14029bd5cd6"/>
+    <selectionType typeId="69565bb0-4af3-4446-b2fa-ff7024aae89a" valueTypeId="f14f8682-bfd9-4993-a725-612e34a5a734"/>
+    <listType typeId="62b478f2-283f-400c-9924-753956b66079" valueTypeId="a4236c05-a1c0-409d-81d9-55ce47b7c048"/>
+    <managerType typeId="23804edf-68d2-4bbb-a9c9-c963b763e943" valueTypeId="6602cf3f-80f3-4801-918a-ab071061bee5"/>
+  </producedTypes>
+  <name>РБ_ВариантыНастроекРабочегоСтола</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты настроек рабочего стола</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РБ_ВариантыНастроекРабочегоСтола.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РБ_ВариантыНастроекРабочегоСтола.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РБ_ВариантыНастроекРабочегоСтола.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РБ_ВариантыНастроекРабочегоСтола.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РБ_ВариантыНастроекРабочегоСтола.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="6fa5a08b-90ce-44b6-aa3c-e9e20097c1cb">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="523b35bd-d816-48b2-8568-0c587e175fac">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="51d75d62-4d63-42b9-9f86-1e1e71fb2d4b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92a5101a-3707-42da-97c3-8789416e56c2">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38557e15-8f6b-4862-8411-404560c3f9d7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -24,7 +24,7 @@
       <value>Настройка</value>
     </synonym>
     <type>
-      <types>ValueStorage</types>
+      <types>CatalogRef.РБ_ВариантыНастроекРабочегоСтола</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
